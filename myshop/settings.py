@@ -111,6 +111,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 CART_SESSION_ID = 'cart'
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = STATIC_DIR
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
